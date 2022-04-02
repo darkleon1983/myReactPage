@@ -1,0 +1,15 @@
+ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+  }
+  ul li {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 900px) { 
+      ul {
+          color: red;
+      }
+  }
