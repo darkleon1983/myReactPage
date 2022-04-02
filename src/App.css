@@ -25,5 +25,7 @@
   color: #61dafb;
 }
 .App {
+  display: grid;
   justify-self: center;
+  color: rgba(130, 130, 130, 1)
 }

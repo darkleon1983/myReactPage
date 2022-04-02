@@ -1,11 +1,21 @@
+.header {
+    width: 80%;
+    justify-self: center;
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+}
+
 ul {
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    grid-template-columns: repeat(5, auto);
     list-style-type: none;
   }
-  ul li {
-    text-align: center;
+
+
+  li a {
+      text-decoration: none;
+      color: inherit;
   }
 
   @media screen and (max-width: 900px) { 
