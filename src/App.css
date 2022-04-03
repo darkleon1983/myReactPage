@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .App-logo {
   height: 40vmin;

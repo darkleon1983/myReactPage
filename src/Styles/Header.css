@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
 .header {
     width: 80%;
     display: grid;
@@ -29,7 +33,9 @@ li a {
         color: red;
     }
 }
-
+.description {
+    display: grid;
+}
 .description-text {
     margin-top: 40px;
     display: grid;
@@ -58,8 +64,12 @@ li a {
 }
 
 .description-photo {
-    margin-top: 40px;
     width: 100%;
-    height: 200px;
-    background-color: aqua;
+    justify-self: center;
+    margin-top: 40px;
+    width: 944px;
+    height: 387px; 
+    background-image: url(./../../img/profilePhoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
