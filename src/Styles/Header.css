@@ -64,12 +64,12 @@ li a {
 }
 
 .description-photo {
-    width: 100%;
+    display: grid;
+    min-width: 100%;
+    height: auto;
+    background: url("./../../img/profilePhoto.png");
     justify-self: center;
     margin-top: 40px;
-    width: 944px;
-    height: 387px; 
-    background-image: url(./../../img/profilePhoto.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  
 }

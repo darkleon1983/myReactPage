@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/Header.css';
 
+
 const Header = () => {
     return (
         <div className="header">
@@ -30,10 +31,13 @@ const Header = () => {
                     <div className='description-text_lang'>Ru|Eng</div>
                 </div>
                 <div className='description-photo'>
+                {/* <img src="./profilePhoto.png" alt="Hello, world" /> */}
                 </div>
             </div>
         </div>
     );
 }
+
+
 
 export default Header;
