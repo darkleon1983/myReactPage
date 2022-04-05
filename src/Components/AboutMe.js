@@ -1,21 +1,25 @@
 import React from "react";
+import '../Styles/AboutMe.css';
+
+
 
 const AboutMe = () => {
     return (
-        <div className="aboutMe">
-            <div className="aboutMe-item">
+        <div className="about">
+            <div className="about-item">
                 <h2>About me</h2>
             </div>
-            <div className="aboutMe-item">
-                <p>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+            <div className="about-item">
+                <p>Hi, I'm Evgeny – Frontend developer from Krasnoyarsk. I'm interested in new projects.</p>
             </div>
-            <div className="aboutMe-item">
-                <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy. </p>
+            <div className="about-item">
+                <p>I graduated a course in "HTML-Academy". </p>
             </div>
-            <div className="aboutMe-item">
+            <div className="about-item">
                 <p>Ready to implement excellent projects with wonderful people.</p>
             </div>
-        </div>);
+        </div>
+    );
 }
 
 export default AboutMe;

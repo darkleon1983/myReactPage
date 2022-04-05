@@ -1,0 +1,11 @@
+.about {
+  color: rgba(7, 7, 7, 1);
+  margin-top: 40px;
+  width: 80%;
+  display: grid;
+  justify-self: center;
+}
+
+.about-item {
+  justify-self: center;
+}
