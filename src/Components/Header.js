@@ -30,9 +30,7 @@ const Header = () => {
                     <div className='description-text_info'>Frontend developer,<br/> 38 years, Krasnoyarsk</div>
                     <div className='description-text_lang'>Ru|Eng</div>
                 </div>
-                <div className='description-photo'>
-                {/* <img src="./profilePhoto.png" alt="Hello, world" /> */}
-                </div>
+                <div className='description-photo'></div>
             </div>
         </div>
     );

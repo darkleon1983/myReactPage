@@ -1,0 +1,36 @@
+.footer {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+}
+
+.footer-icon__container {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+
+.footer-button__container {
+    display: grid;
+    justify-content: center;
+}
+.footer-button {
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: rgba(7, 7, 7, 1);
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}

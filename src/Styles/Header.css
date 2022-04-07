@@ -14,6 +14,12 @@ img {
     border-bottom: 1px solid rgba(130, 130, 130, 1);
 }
 
+@media screen and (max-width: 768px) {
+    .listContainer {
+        display: none;
+    }
+}
+
 ul {
     padding: 0;
     display: grid;
@@ -36,12 +42,18 @@ li a {
 .description {
     display: grid;
 }
+
+@media screen and (min-width: 769px) {
+    
 .description-text {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(50, auto);
+    }
 }
+
+
 
 .description-text_name {
     align-self: baseline;
@@ -63,13 +75,37 @@ li a {
     transform: rotate(-90deg);
 }
 
+@media screen and (max-width: 768px) {
+    .description-text_info {
+        align-self: self-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description-text_lang {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description-text {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
 .description-photo {
     display: grid;
     width: 100%;
     height: 28vw;
     background-image: url("./../../img/profilePhoto.png");
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 40px;  
+}
 
-  
+@media screen and (max-width: 768px) {
+    .description-photo {
+        width: 317px;
+        height: 478px;
+        background-image: url("./../../img/profilePhotoTop.png");
+    }
 }
