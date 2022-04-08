@@ -43,16 +43,13 @@ li a {
     display: grid;
 }
 
-@media screen and (min-width: 769px) {
-    
+@media screen and (min-width: 769px) {    
 .description-text {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(50, auto);
     }
 }
-
 
 
 .description-text_name {
@@ -63,9 +60,11 @@ li a {
 }
 
 .description-text_info {
-    align-self: baseline;
+    display: grid;
+    width: 100%;
+    margin-top: 25px;
+    justify-self: start;
     color: rgba(0, 0, 0, 1);
-    justify-self: center;
 }
 
 .description-text_lang {
@@ -73,6 +72,23 @@ li a {
     justify-self: right;
     align-self: center;
     transform: rotate(-90deg);
+}
+@media screen and (min-width: 769px) {
+  .mobileButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .mobileButton {
+        cursor: pointer;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: end;
+        align-self: baseline;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -99,13 +115,14 @@ li a {
     height: 28vw;
     background-image: url("./../../img/profilePhoto.png");
     background-size: cover;
-    margin-top: 40px;  
+    margin-top: 5px;  
 }
 
 @media screen and (max-width: 768px) {
     .description-photo {
-        width: 317px;
+        width: 100%;
         height: 478px;
         background-image: url("./../../img/profilePhotoTop.png");
+        margin-top: 40px; 
     }
 }

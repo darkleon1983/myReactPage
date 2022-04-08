@@ -6,11 +6,25 @@
   justify-self: center;
 }
 
+@media screen and (min-width: 769px) {  
 .skills-container {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: space-between;
+} 
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+  }
+  .skills-container div {
+    justify-self: center;
+    margin-top: 10px;
+  }
 }
 
 h2 {
