@@ -1,13 +1,13 @@
 import React from "react";
-import '../Styles/Skills.css';
+import styles from '../Styles/Skills.module.css';
 
 const Skills = () => {
     return (
-        <div className="skills">
-            <h2>Skills</h2>
-            <div className="skills-container">
+        <div className={styles.skills}>
+            <h2 className={styles.heading}>Skills</h2>
+            <div className={styles.container}>
                 <div>
-                    <div>
+                    <div className={styles.svg}>
                         <svg widtg="58px" height="58px" xmlns="http://www.w3.org/2000/svg"
                             aria-label="HTML5" role="img"
                             viewBox="0 0 512 512">
@@ -20,7 +20,7 @@ const Skills = () => {
                     <p>HTML5</p>
                 </div>
                 <div>
-                    <div>
+                    <div className={styles.svg}>
                         <svg width="58px" height="58px" xmlns="http://www.w3.org/2000/svg"
                             aria-label="CSS3" role="img"
                             viewBox="0 0 512 512">
@@ -33,7 +33,7 @@ const Skills = () => {
                     <p>CSS3</p>
                 </div>
                 <div>
-                    <div>
+                    <div className={styles.svg}>
                         <svg width="58px" height="58px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><g>
                             <path d="M0,0 L256,0 L256,256 L0,256 L0,0 Z" fill="#F7DF1E"></path>
                             <path d="M67.311746,213.932292 L86.902654,202.076241 C90.6821079,208.777346 94.1202286,214.447137 102.367086,214.447137 C110.272203,214.447137 115.256076,211.354819 115.256076,199.326883 L115.256076,117.528787 L139.313575,117.528787 L139.313575,199.666997 C139.313575,224.58433 124.707759,235.925943 103.3984,235.925943 C84.1532952,235.925943 72.9819429,225.958603 67.3113397,213.93026" fill="#000000"></path>
@@ -43,7 +43,7 @@ const Skills = () => {
                     <p>JavaScript</p>
                 </div>
                 <div>
-                    <div>
+                    <div className={styles.svg}>
                         <svg width="58px" height="58px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <g fill="none" fill-rule="evenodd" transform="translate(4)">
                                 <circle cx="12" cy="12" r="4" fill="#19BCFE" />

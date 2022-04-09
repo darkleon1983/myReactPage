@@ -6,6 +6,10 @@
   justify-self: center;
 }
 
-.about-item {
+.heading {
+  text-align: center;
+}
+
+.item {
   justify-self: center;
 }
