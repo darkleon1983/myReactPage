@@ -109,7 +109,7 @@ ul {
     display: grid;
     width: 100%;
     height: 28vw;
-    background-image: url("./../../img/profilePhoto.png");
+    background-image: url("./../../../img/profilePhoto.png");/*url("./../../../img/profilePhoto.png");*/
     background-size: cover;
     margin-top: 5px;  
 }
@@ -118,7 +118,7 @@ ul {
     .photo {
         width: 100%;
         height: 478px;
-        background-image: url("./../../img/profilePhotoTop.png");
+        background-image: url("./../../../img/profilePhotoTop.png");
         margin-top: 40px; 
     }
 }

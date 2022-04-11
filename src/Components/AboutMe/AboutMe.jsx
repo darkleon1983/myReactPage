@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../Styles/AboutMe.module.css';
+import styles from './AboutMe.module.css';
 
 
 

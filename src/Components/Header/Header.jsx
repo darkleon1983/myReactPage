@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../Styles/Header.module.css';
+import styles from './Header.module.css';
 
 
 const Header = () => {
@@ -44,6 +44,6 @@ const Header = () => {
     );
 }
 
-
+console.log(styles);
 
 export default Header;
