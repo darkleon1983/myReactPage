@@ -14,20 +14,35 @@ img {
     border-bottom: 1px solid rgba(130, 130, 130, 1);
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .listContainer {
         display: none;
     }
+} */
+
+@media screen and (min-width: 769px) {
+    ul {
+        padding: 0;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(5, auto);
+        list-style-type: none;
+    }
 }
 
-ul {
-    padding: 0;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(5, auto);
-    list-style-type: none;
+@media screen and (max-width: 768px) {
+    ul {
+        padding: 0;
+        display: grid;
+        justify-content: space-between;
+        grid-template-rows: repeat(5, auto);
+        grid-row-gap: 67px;
+        list-style-type: none;
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: bold;
+    }
 }
-
 
 .listItem {
     text-decoration: none;
