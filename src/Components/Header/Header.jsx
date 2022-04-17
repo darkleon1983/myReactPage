@@ -4,12 +4,12 @@ import styles from './Header.module.css';
 
 const Header = () => {
     const handlerClick = (event) => {
-        alert('hey');
+       alert('hey');
     }
 
     return (
         <div className={styles.header}>
-            <div className={styles.listContainer}>
+            <div className={`${styles.listContainer} ${styles.invisible}`}>
                 <ul classList={styles.list}>
                     <li>
                         <a className={styles.listItem} href='#'>Home</a>
@@ -31,7 +31,9 @@ const Header = () => {
             <div className={styles.description}>
                 <div className={styles.text}>
                     <div className={styles.name}>Evgeny <br /> Korolev</div>
-                    <div className={styles.info}>Frontend developer,<br /> 38 years, Krasnoyarsk</div>
+                    <div className={styles.info}>
+                        <div>Frontend developer,<br /> 38 years, Krasnoyarsk</div>  
+                    </div>
                     <div className={styles.lang}>Ru|Eng</div>
                     <div className={styles.mobileButton}>
                         <svg onClick={handlerClick} width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
