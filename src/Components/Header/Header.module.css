@@ -3,11 +3,6 @@ img {
     height: auto;
 }
 
-
-.buttonList {
-    color: red;
-}
-
 .header {
     width: 80%;
     display: grid;
@@ -20,17 +15,18 @@ img {
     border-bottom: 1px solid rgba(130, 130, 130, 1);
 }
 
-@media screen and (max-width: 768px) {
-    .invisible {
-        display: none;
-    }
+/* @media screen and (max-width: 768px) {
+  
+} */
+.invisible {
+    display: none;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .listContainer {
         display: none;
     }
-}
+} */
 
 @media screen and (min-width: 769px) {
     ul {
@@ -111,6 +107,8 @@ img {
 
 @media screen and (max-width: 768px) {
     .mobileButton {
+        position: absolute;
+        top: 50px;
         cursor: pointer;
         grid-column-start: 2;
         grid-column-end: 3;
