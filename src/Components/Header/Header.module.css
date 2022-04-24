@@ -18,8 +18,15 @@ img {
 /* @media screen and (max-width: 768px) {
   
 } */
-.invisible {
-    display: none;
+
+.closeSvg {
+    rotate: 45deg;
+}
+
+@media screen and (max-width: 768px) {
+    .invisible {
+        display: none;
+    }
 }
 
 /* @media screen and (max-width: 768px) {

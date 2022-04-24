@@ -1,15 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
+
 
 
 const Button = () => {
-    const [counter, setCounter] = useState(0);
-    const handlerClick = (event) => {
-        setCounter(counter + 1);
+
+    const [count, countActive] = useState(0);
+
+    const toggleButton = () => {
+        countActive(count + 1);
+        if (count > 15) {
+            alert('Stop fucking clicking, you motherfucker');
+        }
     }
     return (
-        <button onClick={handlerClick}>
-            I was pressed { counter } times.
-        </button>
+        <div>
+            <button onClick={toggleButton}>You press me {count} times</button>
+        </div>
     );
 }
 
