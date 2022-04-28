@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
-import Header from './Components/Header/Header.jsx';
-import AboutMe from './Components/AboutMe/AboutMe.jsx';
-import Skills from './Components/Skills/Skills.jsx';
-import Footer from './Components/Footer/Footer.jsx';
-import Button from './Components/Button/Button.jsx';
+import Header from './Components/Header/index.js';
+import AboutMe from './Components/AboutMe/index.js';
+import Skills from './Components/Skills/index.js';
+import Footer from './Components/Footer/index.js';
+import Button from './Components/Button/index.js';
 
 
 const App = () => {

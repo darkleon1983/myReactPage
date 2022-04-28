@@ -47,19 +47,19 @@ const Header = () => {
             <div className={`${styles.listContainer} ${isActive ? null : styles.invisible}`}>
                 <ul classList={styles.list}>
                     <li>
-                        <a className={styles.listItem} href='#'>Home</a>
+                        <a className={styles.listItem} href='#home'>Home</a>
                     </li>
                     <li>
-                        <a className={styles.listItem} href='#'>About me</a>
+                        <a className={styles.listItem} href='#about_me'>About me</a>
                     </li>
                     <li>
-                        <a className={styles.listItem} href='#'>Skills</a>
+                        <a className={styles.listItem} href='#skills'>Skills</a>
                     </li>
                     <li>
-                        <a className={styles.listItem} href='#'>Portfolio</a>
+                        <a className={styles.listItem} href='#portfolio'>Portfolio</a>
                     </li>
                     <li>
-                        <a className={styles.listItem} href='#'>Contacts</a>
+                        <a className={styles.listItem} href='#contacts'>Contacts</a>
                     </li>
                 </ul>
             </div>
